@@ -1,0 +1,50 @@
+Generating 2,048 bit RSA key pair and self-signed certificate (SHA256withRSA) with a validity of 10,000 days
+        for: CN=Nikita Malofeev, OU=PROPDD, O=PROPDD, L=Almaty, ST=Almaty, C=AL
+
+Nikita Malofeev 123456
+
+Keystore type: PKCS12
+Keystore provider: SUN
+
+Your keystore contains 1 entry
+ 
+Alias name: alias
+Creation date: Oct 10, 2023
+Entry type: PrivateKeyEntry
+Certificate chain length: 1
+Certificate[1]:
+Owner: CN=Nikita Malofeev, OU=PROPDD, O=PROPDD, L=Almaty, ST=Almaty, C=AL
+Issuer: CN=Nikita Malofeev, OU=PROPDD, O=PROPDD, L=Almaty, ST=Almaty, C=AL
+Serial number: 5e714a78ac27346f
+Valid from: Tue Oct 10 13:56:22 ALMT 2023 until: Sat Feb 25 13:56:22 ALMT 2051
+Certificate fingerprints:
+         SHA1: 31:EF:65:66:D8:22:E5:2B:29:D7:D1:7D:97:B5:CC:1B:E7:28:2B:C4
+         SHA256: 74:D6:D0:8D:14:07:AD:5F:6B:82:C2:DD:32:11:F4:45:6B:DF:A8:E0:43:71:07:E3:B8:CE:6A:21:DF:B8:16:44
+Signature algorithm name: SHA256withRSA
+Subject Public Key Algorithm: 2048-bit RSA key
+Version: 3
+
+Extensions: 
+
+#1: ObjectId: 2.5.29.14 Criticality=false
+SubjectKeyIdentifier [
+KeyIdentifier [
+0000: 14 03 95 9B 26 AE BA 91   50 BD A1 B4 20 EA 04 24  ....&...P... ..$
+0010: D3 E5 BD 66                                        ...f
+]
+]
+
+
+
+*******************************************
+*******************************************
+
+
+// google link assets
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target" : { "namespace": "android_app", "package_name": "deeplink",
+               "sha256_cert_fingerprints": ["74:D6:D0:8D:14:07:AD:5F:6B:82:C2:DD:32:11:F4:45:6B:DF:A8:E0:43:71:07:E3:B8:CE:6A:21:DF:B8:16:44"] }
+}]
+
+Post statement file at https:// deeplink-test.app/.well-known/assetlinks.json.

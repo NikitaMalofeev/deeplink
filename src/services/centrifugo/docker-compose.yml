@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  centrifugo:
+    image: centrifugo/centrifugo
+    command: centrifugo -c config.json --port=8080 --admin
+    ports:
+      - "8080:8080"
+    volumes:
+        - ./services:/centrifugo/config.json

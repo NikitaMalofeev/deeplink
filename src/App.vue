@@ -1,6 +1,6 @@
 <template>
   <ion-app>
-    <ion-router-outlet />
+    <ion-router-outlet/>
   </ion-app>
 </template>
 
@@ -11,12 +11,14 @@ import { defineComponent } from 'vue';
 import { useRouter } from "vue-router";
 
 
+
 export default defineComponent({
   name: 'App',
   components: {
     IonApp,
     IonRouterOutlet
   },
+
   setup() {
 
   const router = useRouter();

@@ -1,0 +1,5 @@
+{
+    "admin": true,
+    "admin_password": "1234",
+    "admin_secret": "1234"
+}

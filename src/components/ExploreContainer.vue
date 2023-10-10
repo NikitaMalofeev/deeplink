@@ -2,10 +2,13 @@
   <div id="container">
     <strong>{{ name }}</strong>
     <p>Explore <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
+    <SocketButton/>
   </div>
 </template>
 
 <script setup lang="ts">
+import SocketButton from '@/components/SocketButton.vue';
+
 defineProps({
   name: String,
 });
